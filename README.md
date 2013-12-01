@@ -13,7 +13,7 @@ O método principal utilizado é GetXmlDocumentationClass. Ele pode receber 2, 3
 
 
 
-
+'
 //Inicializa o objeto
 XmlDocumentation objXmlDocumentation = new XmlDocumentation();
 
@@ -31,7 +31,7 @@ objXmlDocumentation.IDSTRING ID_STRING = objXmlDocumentation.IDSTRING.CLASS;
 //members
 objXmlDocumentation.Documentation objDocumentation = 
   GetXmlDocumentationClass("SeuNamespace.SuaClasse", ID_STRING);
-  
+  '
   
 
 
