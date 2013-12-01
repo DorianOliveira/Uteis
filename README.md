@@ -32,6 +32,21 @@ objXmlDocumentation.Documentation objDocumentation =
   GetXmlDocumentationClass("SeuNamespace.SuaClasse", ID_STRING);
 ```
   
+###Outros usos
 
+O método possui mais dois outros parâmetros. O primeiro deles define se a busca será feita no namespace inteiro, ou seja, apenas na classe em questão (comportamento padrão - true) ou em todas as classes do namespace.
+
+Exemplo de uso:
+
+```CSHARP
+
+//Nesse caso a busca será feita em todas as classes do namespace
+
+XmlDocumentation objXmlDocumentation = new XmlDocumentation();
+objXmlDocumentation.IDSTRING ID_STRING = objXmlDocumentation.IDSTRING.CLASS;
+objXmlDocumentation.Documentation objDocumentation =  
+  GetXmlDocumentationClass("SeuNamespace.SuaClasse", ID_STRING, false);
+  
+```
 
 
