@@ -11,7 +11,7 @@ Essa classe tem por finalidade acessar o arquivo de comentários XML no .NET. Es
 
 O método principal utilizado é GetXmlDocumentationClass. Ele pode receber 2, 3 ou 4 parâmetros.
 
-'''csharp
+```csharp
 
 //Inicializa o objeto
 XmlDocumentation objXmlDocumentation = new XmlDocumentation();
@@ -30,7 +30,7 @@ objXmlDocumentation.IDSTRING ID_STRING = objXmlDocumentation.IDSTRING.CLASS;
 //members
 objXmlDocumentation.Documentation objDocumentation = 
   GetXmlDocumentationClass("SeuNamespace.SuaClasse", ID_STRING);
-'''
+```
   
 
 
