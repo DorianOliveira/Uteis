@@ -7,7 +7,7 @@ Uteis
 Essa classe tem por finalidade acessar o arquivo de comentários XML no .NET. Esses comentários são criados quando se comenta utilizando-se de três barras "///".
 
 
-#Uso Padrão
+###Uso Padrão
 
 O método principal utilizado é GetXmlDocumentationClass. Ele pode receber 2, 3 ou 4 parâmetros.
 
