@@ -4,8 +4,25 @@ Uteis
 ##Xml Documentation Handle
 
 
-Essa classe tem por finalidade acessar o arquivo de comentários XML no .NET. Esses comentários são criados quando se comenta utilizando-se de três barras "///".
+Essa classe tem por finalidade acessar o arquivo de comentários XML no .NET. Esses comentários são criados quando se comenta utilizando-se de três barras "///". Vale lembrar que só funcionará se a compilação do assembly foi feita com a opção de gerar a documentação XML. No visual studio, é possível definir isso através de:
 
+Seu projeto (assembly) > Propriedades > Build > habilitar a opção XML documentation file.
+
+
+###Objetivo
+
+Experimentos e busca de informações simples em XML, quando necessário.
+
+###Metodologia
+
+Para conseguir o resultado esperado (simples por sinal), foram utilizadas técnicas de busca em XML, LINQ e  Reflection.
+
+
+### Falta fazer
+
+1. Busca de membros apenas da classe em questão (não incluir classes-filhas quando essas existirem). Não foi feito simplesmente por ser um caso raro.
+
+2. Busca em nome customizado do XML (atualmente a busca é feita apenas se o nome do XML for o mesmo do assembly - comportamento padrão do compilador se o nome não for mudado )
 
 ###Uso Padrão
 
